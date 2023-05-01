@@ -10,6 +10,7 @@ html, body {
 
 .conteiner {
   max-width: 1410px;
+  height: auto;
   padding: 0 20px;
   margin: 0 auto;
 }
@@ -29,13 +30,6 @@ html, body {
 }
 
 /* --------------------------------------------------------------------- */
-.wrapper {}
-
-.header {}
-
-.header__top {}
-
-.conteiner {}
 
 .header__top-inner {
   padding-top: 32px;
@@ -220,6 +214,7 @@ html, body {
 .header__block1 {
   color: #939191;
 }
+
 /* ----------------------------------------------------------------------- */
 .header__comment {
   position: relative;
@@ -280,15 +275,17 @@ html, body {
   border-radius: 55px;
   transition: all .3s;
 }
+
 .header__comments2:hover {
   box-shadow: 0 0 0 20px rgba(225, 225, 225, 0.43);
   transform: scale(1.05);
 }
-.header__rating{
+
+.header__rating {
   display: grid;
   grid-template-columns: 70px 200px;
   grid-template-rows: 20px 50px;
-  transform: translate(20px,25px);
+  transform: translate(20px, 25px);
   row-gap: 10px;
 }
 
@@ -313,7 +310,78 @@ html, body {
 .header__stars {
   grid-row-start: 1;
   grid-row-end: 3;
-  
+
 }
 
-.header__img {}
+/* ------------------------------------------------------- */
+.main {}
+
+.service {
+  margin-top: 240px;
+  background-color: #F2F2F2;
+}
+
+.conteiner {}
+
+.service__heading {
+  max-width: 858px;
+}
+
+.heading {}
+
+.heading__subtitle {
+  color: #1E1B1B;
+  text-align: center;
+  letter-spacing: -0.03em;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.heading__title {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 58px;
+  line-height: 76px;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #1E1B1B;
+}
+
+.service__button {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.service__button1 {
+  width: 316px;
+  height: 232px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #1E1B1B;
+  background-color: white;
+  margin-right: 8px;
+  margin-top: 8px;
+  transition: all .5s;
+}
+.service__button1:hover{
+  background-color: #FF6433;
+  transform: scale(1.05);
+}
+
+
+.service__transfer {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 175%;
+  color: #1E1B1B;
+  transition: all .5s;
+}
+.service__transfer:hover{
+  color: #FF6433;
+}

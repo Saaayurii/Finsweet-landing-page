@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
     <link rel="stylesheet" href="CSS/reset.css" />
     <link rel="stylesheet" href="CSS/fonts.css" />
     <link rel="stylesheet" href="CSS/style.css" />
@@ -15,7 +17,7 @@
         <div class="header__top">
           <div class="conteiner">
             <div class="header__top-inner">
-              <a class="header__logo logo">
+              <a class="header__logo logo" href="#">
                 <img src="images/Logo.svg" alt="Logo" />
               </a>
               <nav class="header__nav">
@@ -62,7 +64,7 @@
                   <div class="header__play">
                     <a class="header__play-btn1 button" href="#">Book a service
                     </a>
-                    <a class="header__play-btn2" href="#">
+                    <a class="header__play-btn2" href="https://youtu.be/KKNGlQ5KsaQ" data-fancybox>
                       <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g filter="url(#filter0_b_703_93)">
                         <path d="M0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12Z" fill="#1E1B1B"/>
@@ -102,7 +104,7 @@
                       <div class="header__rating">
                         <span class="header__rating_num">4.5/5</span>
                         <span class="header__rating_text">Rating</span>
-                        <span class="header__stars"> <img src="images/decor/Stars.svg" alt=""></span>
+                        <span class="header__stars rateYo"> </span>
                       </div>
                   </a>
                 </div>
@@ -111,7 +113,48 @@
           </div>
         </div>
       </header>
+      <main class="main">
+        <section class="service">
+        <div class="conteiner">
+          <div class="service__heading heading">
+            <p class="heading__subtitle">What we Offer</p>
+            <h2 class="heading__title">We offer full service auto repair & maintenance</h2>
+          </div>
+          <div class="service__button">
+            <div class="service__button1"><img src="images/Второй слайд/1.svg" alt="">
+            Diagnosic
+          </div>
+          <div class="service__button1"><img src="images/Второй слайд/2.svg" alt="">
+            Engine Repair
+          </div>
+          <div class="service__button1"><img src="images/Второй слайд/3.svg" alt="">
+            Wheel Repair
+          </div>
+          <div class="service__button1"><img src="images/Второй слайд/4.svg" alt="">
+            Oil Filter
+          </div>
+          <div class="service__button1"><img src="images/Второй слайд/5.svg" alt="">
+            Body Work
+          </div>
+          <div class="service__button1"><img src="images/Второй слайд/6.svg" alt="">
+            Batteries
+          </div>
+          <div class="service__button1"><img src="images/Второй слайд/7.svg" alt="">
+            Insurance Claim
+          </div>
+          <div class="service__button1"><img src="images/Второй слайд/8.svg" alt="">
+            Custom Service
+          </div>
+          </div>
+          <div class="service__transfer"><a class="transfer" href="#">Learn about services <img src="images/Второй слайд/Icon.svg" alt=""></a></div>
+        </div>
+      </section>
+      </main>
+      <footer class="footer"></footer>
     </div>
-  </body>
-  <script src="js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.js"></script>
+</body>
+<script src="js/main.js"></script>
 </html>
