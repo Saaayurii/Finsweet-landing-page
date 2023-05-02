@@ -325,6 +325,8 @@ html, body {
 
 .service__heading {
   max-width: 858px;
+  transform: translate(250px, 0px);
+  margin-bottom: 50px ;
 }
 
 .heading {}
@@ -352,15 +354,21 @@ html, body {
 .service__button {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  margin-right: 50px;
 }
 
 .service__button1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   width: 316px;
   height: 232px;
   font-weight: 600;
   font-size: 24px;
   line-height: 36px;
-  text-align: center;
   letter-spacing: -0.03em;
   color: #1E1B1B;
   background-color: white;
@@ -375,6 +383,9 @@ html, body {
 
 
 .service__transfer {
+  margin-top: 32px;
+  margin-right: 90px;
+  text-align: end;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -382,6 +393,29 @@ html, body {
   color: #1E1B1B;
   transition: all .5s;
 }
+.service__img{
+  margin-top: 11px;
+}
 .service__transfer:hover{
   color: #FF6433;
+}
+/* --------------------------------------------------- */
+.Assistant {
+}
+.conteiner {
+}
+.Assistant__title {
+}
+.h2__Assistant__title{
+  
+}
+.Assistant__btn {
+}
+.Assistant__points {
+}
+.Assistant__photo {
+}
+.Assistant__Contact {
+}
+.Assistant__evalution {
 }
