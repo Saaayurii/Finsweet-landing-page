@@ -1,180 +1,231 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-    <link rel="stylesheet" href="CSS/reset.css" />
-    <link rel="stylesheet" href="CSS/fonts.css" />
-    <link rel="stylesheet" href="CSS/style.css" />
-    <title>Finsweet</title>
-  </head>
-  <body>
-    <div class="wrapper">
-      <header class="header">
-        <div class="header__top">
-          <div class="conteiner">
-            <div class="header__top-inner">
-              <a class="header__logo logo" href="#">
-                <img src="images/Logo.svg" alt="Logo" />
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  <link rel="stylesheet" href="CSS/reset.css" />
+  <link rel="stylesheet" href="CSS/fonts.css" />
+  <link rel="stylesheet" href="CSS/style.css" />
+  <title>Finsweet</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__top">
+        <div class="conteiner">
+          <div class="header__top-inner">
+            <a class="header__logo logo" href="#">
+              <img src="images/Logo.svg" alt="Logo" />
+            </a>
+            <nav class="header__nav">
+              <ul class="header__nav-list">
+                <li class="header__nav-item">
+                  <a class="header__nav-link" href="#">Home</a>
+                </li>
+                <li class="header__nav-item">
+                  <a class="header__nav-link" href="#">About us</a>
+                </li>
+                <li class="header__nav-item">
+                  <a class="header__nav-link" href="#">Services</a>
+                </li>
+                <li class="header__nav-item">
+                  <a class="header__nav-link" href="#">Blog</a>
+                </li>
+                <li class="header__nav-item">
+                  <a class="header__nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="header__fhone">
+              <a class="header__fhone-button" href="tel:1800 265 24 52">
+                <img src="images/decor/Assistance Icon.svg" alt="fhone" />
               </a>
-              <nav class="header__nav">
-                <ul class="header__nav-list">
-                  <li class="header__nav-item">
-                    <a class="header__nav-link" href="#">Home</a>
-                  </li>
-                  <li class="header__nav-item">
-                    <a class="header__nav-link" href="#">About us</a>
-                  </li>
-                  <li class="header__nav-item">
-                    <a class="header__nav-link" href="#">Services</a>
-                  </li>
-                  <li class="header__nav-item">
-                    <a class="header__nav-link" href="#">Blog</a>
-                  </li>
-                  <li class="header__nav-item">
-                    <a class="header__nav-link" href="#">Contact</a>
-                  </li>
-                </ul>
-              </nav>
-              <div class="header__fhone">
-                <a class="header__fhone-button" href="tel:1800 265 24 52">
-                  <img src="images/decor/Assistance Icon.svg" alt="fhone" />
-                </a>
-                <a class="header__fhone-text" href="tel:1800 265 24 52">Road Assistance</a>
-                <a class="header__fhone-number" href="tel:1800 265 24 52"
-                  >1800 265 24 52</a
-                >
-              </div>
+              <a class="header__fhone-text" href="tel:1800 265 24 52">Road Assistance</a>
+              <a class="header__fhone-number" href="tel:1800 265 24 52">1800 265 24 52</a>
             </div>
           </div>
         </div>
-        <div class="header__body">
-          <div class="conteiner">
-            <div class="header__body-inner">
-              <div class="header__main">
-                <div class="header__content">
-                  <div class="header__head">
-                    <h1 class="h1__header__title">
-                      Get your vehicle service done online at one place
-                    </h1>
-                  </div>
-                  <div class="header__play">
-                    <a class="header__play-btn1 button" href="#">Book a service
-                    </a>
-                    <a class="header__play-btn2" href="https://youtu.be/KKNGlQ5KsaQ" data-fancybox>
-                      <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g filter="url(#filter0_b_703_93)">
-                        <path d="M0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12Z" fill="#1E1B1B"/>
-                        </g>
-                        <path d="M8.99268 13.7144V10.18C8.99268 8.67335 8.99268 7.92001 9.48339 7.62962C9.97411 7.33922 10.6345 7.70177 11.9552 8.42688L14.9846 10.0901C16.3231 10.8249 16.9924 11.1924 17.0071 11.7668C17.0218 12.3412 16.3722 12.7424 15.0731 13.5448L12.0437 15.416C10.6936 16.2499 10.0185 16.6668 9.50559 16.3807C8.99268 16.0947 8.99268 15.3012 8.99268 13.7144Z" fill="white"/>
-                        <defs>
-                        <filter id="filter0_b_703_93" x="-80" y="-80" width="184" height="184" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-                        <feGaussianBlur in="BackgroundImageFix" stdDeviation="40"/>
-                        <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_703_93"/>
-                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_703_93" result="shape"/>
+      </div>
+      <div class="header__body">
+        <div class="conteiner">
+          <div class="header__body-inner">
+            <div class="header__main">
+              <div class="header__content">
+                <div class="header__head">
+                  <h1 class="h1__header__title">
+                    Get your vehicle service done online at one place
+                  </h1>
+                </div>
+                <div class="header__play">
+                  <a class="header__play-btn1 button" href="#">Book a service
+                  </a>
+                  <a class="header__play-btn2" href="https://youtu.be/KKNGlQ5KsaQ" data-fancybox>
+                    <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g filter="url(#filter0_b_703_93)">
+                        <path
+                          d="M0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12Z"
+                          fill="#1E1B1B" />
+                      </g>
+                      <path
+                        d="M8.99268 13.7144V10.18C8.99268 8.67335 8.99268 7.92001 9.48339 7.62962C9.97411 7.33922 10.6345 7.70177 11.9552 8.42688L14.9846 10.0901C16.3231 10.8249 16.9924 11.1924 17.0071 11.7668C17.0218 12.3412 16.3722 12.7424 15.0731 13.5448L12.0437 15.416C10.6936 16.2499 10.0185 16.6668 9.50559 16.3807C8.99268 16.0947 8.99268 15.3012 8.99268 13.7144Z"
+                        fill="white" />
+                      <defs>
+                        <filter id="filter0_b_703_93" x="-80" y="-80" width="184" height="184"
+                          filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                          <feGaussianBlur in="BackgroundImageFix" stdDeviation="40" />
+                          <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_703_93" />
+                          <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_703_93"
+                            result="shape" />
                         </filter>
-                        </defs>
-                        </svg>
-                        Play Video
-                    </a>
-                  </div> 
-                  <div class="header__opening">
-                    <span class="header__img">
-                      <img src="images/decor/Icon.svg"></img>
-                    </span>
-                    <span class="header__block1">
-                      We are open 
-                    </span>
-                    <span class="header__block2">
-                      Monday to Friday 9:00 AM to  10:00  AM
-                    </span>
-                  </div> 
-                </div>
-                <div class="header__comment">
-                  <img class="header__humans" src="/images/Image.jpg" alt="" />
-                  <a class="header__comments1" href="#">
-                    <div class="header__btn24hr"><span class="header__24hr">24 hr</span></div>
-                    <div class="header__QS">Quick service</div>
-                  </a>
-                  <a class="header__comments2" href="#">
-                      <div class="header__rating">
-                        <span class="header__rating_num">4.5/5</span>
-                        <span class="header__rating_text">Rating</span>
-                        <span class="header__stars rateYo"> </span>
-                      </div>
+                      </defs>
+                    </svg>
+                    Play Video
                   </a>
                 </div>
+                <div class="header__opening">
+                  <span class="header__img">
+                    <img src="images/decor/Icon.svg"></img>
+                  </span>
+                  <span class="header__block1">
+                    We are open
+                  </span>
+                  <span class="header__block2">
+                    Monday to Friday 9:00 AM to 10:00 AM
+                  </span>
+                </div>
+              </div>
+              <div class="header__comment">
+                <img class="header__humans" src="/images/Image.jpg" alt="" />
+                <a class="header__comments1" href="#">
+                  <div class="header__btn24hr"><span class="header__24hr">24 hr</span></div>
+                  <div class="header__QS">Quick service</div>
+                </a>
+                <a class="header__comments2" href="#">
+                  <div class="header__rating">
+                    <span class="header__rating_num">4.5/5</span>
+                    <span class="header__rating_text">Rating</span>
+                    <span class="header__stars rateYo"> </span>
+                  </div>
+                </a>
               </div>
             </div>
           </div>
         </div>
-      </header>
-      <main class="main">
-        <section class="service">
+      </div>
+    </header>
+    <main class="main">
+      <section class="service">
         <div class="conteiner">
           <div class="service__heading heading">
             <p class="heading__subtitle">What we Offer</p>
             <h2 class="heading__title">We offer full service auto repair & maintenance</h2>
           </div>
           <div class="service__button">
-            <a class="service__button1"><img src="images/Второй слайд/1.svg" alt="">
-            Diagnosic
+            <a class="service__button1" href="#"><img src="images/Второй слайд/1.svg" alt="">
+              Diagnosic
             </a>
-          <a class="service__button1"><img src="images/Второй слайд/2.svg" alt="">
-            Engine Repair
-          </a>
-          <a class="service__button1"><img src="images/Второй слайд/3.svg" alt="">
-            Wheel Repair
-          </a>
-          <a class="service__button1"><img src="images/Второй слайд/4.svg" alt="">
-            Oil Filter
-          </a>
-          <a class="service__button1"><img src="images/Второй слайд/5.svg" alt="">
-            Body Work
-          </a>
-          <a class="service__button1"><img src="images/Второй слайд/6.svg" alt="">
-            Batteries
-          </a>
-          <a class="service__button1"><img src="images/Второй слайд/7.svg" alt="">
-            Insurance Claim
-          </a>
-          <a class="service__button1"><img src="images/Второй слайд/8.svg" alt="">
-            Custom Service
-          </a>
-        </div>
-        <div class="service__transfer"><a class="transfer" href="#">Learn about services <img class="service__img" src="images/Второй слайд/Icon.svg" alt=""></a></div>
+            <a class="service__button1" href="#"><img src="images/Второй слайд/2.svg" alt="">
+              Engine Repair
+            </a>
+            <a class="service__button1" href="#"><img src="images/Второй слайд/3.svg" alt="">
+              Wheel Repair
+            </a>
+            <a class="service__button1" href="#"><img src="images/Второй слайд/4.svg" alt="">
+              Oil Filter
+            </a>
+            <a class="service__button1" href="#"><img src="images/Второй слайд/5.svg" alt="">
+              Body Work
+            </a>
+            <a class="service__button1" href="#"><img src="images/Второй слайд/6.svg" alt="">
+              Batteries
+            </a>
+            <a class="service__button1" href="#"><img src="images/Второй слайд/7.svg" alt="">
+              Insurance Claim
+            </a>
+            <a class="service__button1" href="#"><img src="images/Второй слайд/8.svg" alt="">
+              Custom Service
+            </a>
+            <div class="service__transfer"><a class="transfer" href="#">Learn about services <img class="service__img"
+                  src="images/Второй слайд/Icon.svg" alt=""></a></div>
           </div>
+        </div>
       </section>
       <section class="Assistant">
         <div class="conteiner">
-          <div class="Assistant__title">
-          <h2 class="h2__Assistant__title">We follow a clear process to help you out.</h2>
-          <div class="Assistant__subtitles">Through True Rich Attended does no end it his mother since real had half every him case in packages enquire</div>
+          <div class="Assistant__block">
+            <div class="Assistant__title">
+              <h2 class="h2__Assistant__title">We follow a clear process to help you out.</h2>
+              <div class="Assistant__subtitles">Through True Rich Attended does no end it his mother since real had half
+                every him case in packages enquire</div>
+              <a class="Assistant__btn button" href="#">
+                Learn more
+              </a>
+            </div>
+            <div class="Assistant__points">
+              <div class="Assistant__icon"> 01</div>
+              <div class="Assistant__point"> Get a Quote</div>
+              <div class="points__sub"> Through True Rich Attended does no end it his mother since real had half every.
+              </div>
+              <div class="Assistant__icon">02</div>
+              <div class="Assistant__point"> Book an Appointment</div>
+              <div class="points__sub">Through True Rich Attended does no end it his mother since real had half every.
+              </div>
+              <div class="Assistant__icon">03</div>
+              <div class="Assistant__point"> Get your Service Done</div>
+              <div class="points__sub">Through True Rich Attended does no end it his mother since real had half every.
+              </div>
+            </div>
           </div>
-          <div class="Assistant__btn">
-
+          <div class="Assistant__block2">
+            <div class="Assistant__photo"> <img class="photo__car" src="images/Третий слайд/Image 1.jpg" alt=""><img
+                class="photo__motor" src="images/Третий слайд/ovGrEUgrkyE.jpg" alt="">
+            </div>
+            <div class="Assistant__query">
+              <div class="Assistant__Contact"> Get in touch with us for your service related query</div>
+              <a class="Assistant__btn2 button" href="#">Contact Us</a>
+            </div>
           </div>
-          <div class="Assistant__points">
 
-          </div>  
-        </div>
-        <div class="Assistant__photo">
-        <div class="Assistant__Contact"></div>
-        </div>
-        <div class="conteiner">
-          <div class="Assistant__evalution"></div>
+          <div class="Assistant__Specifications">
+            <ul class="Assistant__row">
+              <li class="Assistant__row-item">
+                <a href="#"> <span class="Assistant__num"> 20+</span>
+                  <div class="Assistant__txt">Proffesional</div>
+                </a>
+              </li>
+              <li class="Assistant__row-item">
+                <a href="#"> <span class="Assistant__num"> 10+</span>
+                  <div class="Assistant__txt">Years Eperience</div>
+                </a>
+              </li>
+              <li class="Assistant__row-item">
+                <a href="#"> <span class="Assistant__num"> 12K +</span>
+                  <div class="Assistant__txt">Service Closed</div>
+                </a>
+              </li>
+              <li class="Assistant__row-item">
+                <a href="#"> <span class="Assistant__num"> 100%</span>
+                  <div class="Assistant__txt">Customer Satisfaction</div>
+                </a>
+              </li>
+            </ul>
+          </div>
+
         </div>
       </section>
-      </main>
-      <footer class="footer"></footer>
-    </div>
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.js"></script>
+    </main>
+    <footer class="footer"></footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.js"></script>
 </body>
 <script src="js/main.js"></script>
+
 </html>
