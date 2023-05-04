@@ -391,15 +391,16 @@ html, body {
   justify-content: end;
   margin-left: 900px;
   margin-top: 32px;
-  margin-right: 90px;
+  margin-right: -10px;
   text-align: end;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
-  line-height: 175%;
+  line-height: 35px;
   color: #1E1B1B;
   transition: all .5s;
   margin-bottom: 128px;
+  transform: translate(150px, 0px);
 }
 
 .service__img {
@@ -551,8 +552,6 @@ html, body {
   background-color: #FF6433;
   width: 729px;
   height: 502px;
-
-
 }
 
 .Assistant__Contact {
@@ -577,9 +576,10 @@ html, body {
   display: inline-flex;
   justify-content: space-evenly;
   align-items: center;
-  
+
 }
-.Assistant__Specifications{
+
+.Assistant__Specifications {
   margin-top: 48px;
   text-align: justify;
   padding-bottom: 48px;
@@ -595,6 +595,7 @@ html, body {
   letter-spacing: -0.03em;
   color: #661CE7;
 }
+
 .Assistant__row-item {
   margin-right: 186px;
   transition: all .3s;
@@ -603,16 +604,44 @@ html, body {
 .Assistant__row-item:hover {
   transform: scale(1.05);
 }
+
 .Assistant__row-item:last-child {
-margin-right: 0px;
+  margin-right: 0px;
 }
-.Assistant__txt{
+
+.Assistant__txt {
   font-style: normal;
-font-weight: 600;
-font-size: 24px;
-line-height: 36px;
-letter-spacing: -0.03em;
-color: #1E1B1B;
-opacity: 0.7;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.03em;
+  color: #1E1B1B;
+  opacity: 0.7;
 }
-.Assistant__evalution {}
+
+.Brands {
+  padding-top: 128px;
+  background-color: #F2F2F2;
+}
+
+.Brands__title {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 58px;
+  line-height: 76px;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #1E1B1B;
+  margin-bottom: 31px;
+}
+
+.Brands__logoipsum {
+  text-align: center;
+  opacity: 0.8;
+  padding-bottom: 81px;
+  transition: all .5s;
+}
+
+.Brands__logoipsum:hover {
+   transform: scale(1.05);
+}
