@@ -643,5 +643,113 @@ html, body {
 }
 
 .Brands__logoipsum:hover {
-   transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+/* ------------------------------------- */
+.Blog {}
+
+.conteiner {}
+
+.Blog__inner {
+  padding-top: 131px;
+  padding-bottom: 136px;
+}
+
+.Blog__heading {
+
+  font-style: normal;
+  font-weight: 800;
+  font-size: 58px;
+  line-height: 76px;
+  letter-spacing: -0.03em;
+  color: #1E1B1B;
+}
+
+.Blog__body {}
+
+.Blog__button-box {
+  display: flex;
+}
+
+.Blog__button {
+  margin-right: 30px;
+}
+
+.Blog__btn {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  letter-spacing: -0.03em;
+  background-color: white;
+  color: #1E1B1B;
+  margin-top: 47px;
+  margin-bottom: 46px;
+  transition: all .5s;
+}
+
+.Blog__button:last-child {
+  margin-right: 0;
+}
+
+.Blog__btn:hover {
+  color: #FF6433;
+  transform: scale(1.05);
+}
+
+.Blog__list {
+  display: grid;
+  grid-template: repeat(2, auto) / repeat(3, 1fr);
+  gap: 32px;
+}
+
+.Blog__list-item {
+  transition: all .5s;
+}
+
+.Blog__list-item:hover {
+
+  transform: scale(1.05);
+}
+
+.Blog__list-link {}
+
+.Blog__image-box img {
+  height: 100%;
+  width: 100%;
+}
+
+.Blog__link-content {
+  padding-top: 24px;
+  padding-right: 24px;
+  padding-bottom: 24px;
+}
+
+.Blog__list-data {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  color: #939191;
+  margin-bottom: 16px;
+}
+
+.Blog__list-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  letter-spacing: -0.03em;
+  color: #1E1B1B;
+  margin-bottom: 16px;
+}
+
+.Blog__list-text {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  color: #232536;
 }
