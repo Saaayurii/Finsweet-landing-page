@@ -5,7 +5,8 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.css">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
   <link rel="stylesheet" href="CSS/reset.css" />
   <link rel="stylesheet" href="CSS/fonts.css" />
@@ -245,6 +246,9 @@
             <div class="Blog__body">
               <ul class="Blog__button-box">
                 <li class="Blog__button">
+                  <button class="Blog__btn" type="button" data-filter="all">All</button>
+                </li>
+                <li class="Blog__button">
                   <button class="Blog__btn" type="button" data-filter=".Blog__list-item--latest">Latest</button>
                 </li>
                 <li class="Blog__button">
@@ -256,7 +260,7 @@
               </ul>
               <ul class="Blog__list">
                 <li class="mix Blog__list-item Blog__list-item--latest" data-order="1">
-                  <a class="Blog__list-link"  href="#">
+                  <a class="Blog__list-link" href="#">
                     <div class="Blog__image-box">
                       <img src="images/Четвертый слайд/1.jpg" alt="">
                     </div>
@@ -338,14 +342,100 @@
           </div>
         </div>
       </section>
-
-
+      <section class="Customers">
+        <div class="conteiner">
+          <div class="Customers__inner">
+            <div class="Customers__heading">
+              <p class="Customers__title">Our customers say the nicest things about our service</p>
+            </div>
+            <div class="Customers__slider-wrapper">
+              <div class="Customers__slider">
+                <a class="Customers__link" href="#">
+                  <div class="Customers__Jonathan">
+                    <div class="Customers__block">
+                      <div class="Customers__img"><img src="images/Пятый слайд/Аватарка.jpg" alt=""></div>
+                      <div class="Customers__name">Jonathan Vallem</div>
+                      <div class="Customers__city">New York</div>
+                      <p class="text__slider">
+                        I have got my car repaired at Finsweet many times before, they are good
+                        at what they do. Not only did they repair my car in a short comprehensive look on all the
+                        working
+                      </p>
+                    </div>
+                  </div>
+                </a>
+                <a class="Customers__link" href="#">
+                  <div class="Customers__Johnson">
+                    <div class="Customers__block">
+                      <div class="Customers__img"><img src="images/Пятый слайд/Аватарка2.jpg" alt=""></div>
+                      <div class="Customers__name">Smith Johnson</div>
+                      <div class="Customers__city">New York</div>
+                      <p class="text__slider">
+                        I have got my car repaired at Finsweet many times before, they are good
+                        at what they do. Not only did they repair my car in a short comprehensive look on all the
+                        working
+                      </p>
+                    </div>
+                  </div>
+                </a>
+                <a class="Customers__link" href="#">
+                  <div class="Customers__Jonathan">
+                    <div class="Customers__block">
+                      <div class="Customers__img"><img src="images/Пятый слайд/Аватарка.jpg" alt=""></div>
+                      <div class="Customers__name">Jonathan Vallem</div>
+                      <div class="Customers__city">New York</div>
+                      <p class="text__slider">
+                        I have got my car repaired at Finsweet many times before, they are good
+                        at what they do. Not only did they repair my car in a short comprehensive look on all the
+                        working
+                      </p>
+                    </div>
+                  </div>
+                </a>
+                <a class="Customers__link" href="#">
+                  <div class="Customers__Johnson">
+                    <div class="Customers__block">
+                      <div class="Customers__img"><img src="images/Пятый слайд/Аватарка2.jpg" alt=""></div>
+                      <div class="Customers__name">Smith Johnson</div>
+                      <div class="Customers__city">New York</div>
+                      <p class="text__slider">
+                        I have got my car repaired at Finsweet many times before, they are good
+                        at what they do. Not only did they repair my car in a short comprehensive look on all the
+                        working
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="Customers__slider-arrows">
+                <a class="Customers__slider-arrow Customers__slider-prev" href="#">
+                  <svg width="28" height="16" viewBox="0 0 28 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M21.2852 9C21.8374 9 22.2852 8.55228 22.2852 8C22.2852 7.44772 21.8374 7 21.2852 7L21.2852 9ZM0.449017 7.29289C0.0584931 7.68342 0.058493 8.31658 0.449017 8.7071L6.81298 15.0711C7.2035 15.4616 7.83667 15.4616 8.22719 15.0711C8.61772 14.6805 8.61772 14.0474 8.22719 13.6569L2.57034 8L8.22719 2.34314C8.61772 1.95262 8.61772 1.31946 8.22719 0.928931C7.83667 0.538407 7.2035 0.538407 6.81298 0.928931L0.449017 7.29289ZM21.2852 7L1.15612 7L1.15612 9L21.2852 9L21.2852 7Z"
+                      fill="#1E1B1B" />
+                  </svg>
+                </a>
+                <a class="Customers__slider-arrow Customers__slider-next" href="#">
+                  <svg width="28" height="16" viewBox="0 0 28 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M1 7C0.447715 7 0 7.44772 0 8C0 8.55228 0.447715 9 1 9V7ZM27.7071 8.70711C28.0976 8.31658 28.0976 7.68342 27.7071 7.29289L21.3431 0.928932C20.9526 0.538408 20.3195 0.538408 19.9289 0.928932C19.5384 1.31946 19.5384 1.95262 19.9289 2.34315L25.5858 8L19.9289 13.6569C19.5384 14.0474 19.5384 14.6805 19.9289 15.0711C20.3195 15.4616 20.9526 15.4616 21.3431 15.0711L27.7071 8.70711ZM1 9H27V7H1V9Z"
+                      fill="#1E1B1B" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer class="footer"></footer>
+    <footer class="footer">
+
+    </footer>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 </body>
 <script src="js/mixitup.min.js"></script>
 <script src="js/main.js"></script>
