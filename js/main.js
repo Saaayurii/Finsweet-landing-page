@@ -17,6 +17,8 @@ $(function () {
     infinite:true,
     draggable: false,
     waitForAnimate: false,
+    dots: true,
+    appendDots: $('.Customers__dots'),
   })
   $('.Customers__slider-prev').on('click', function(e){
     e.preventDefault()
@@ -27,5 +29,10 @@ $(function () {
     $('.Customers__slider').slick('slickNext')
   })
   
-  
+  $(".Questions__acc-link").on('click', function(e){
+e.preventDefault()
+$(this).toggleClass('Questions__acc-link--active')
+$(this).children('.Questions__acc-text').slideToggle()
+
+  })
 });
