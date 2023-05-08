@@ -646,7 +646,7 @@ html, body {
   transform: scale(1.05);
 }
 
-/* ------------------------------------- */
+/* ---------------------------------------------------- */
 .Blog {}
 
 .conteiner {}
@@ -754,7 +754,7 @@ html, body {
   color: #232536;
 }
 
-/* -------------------------------------------------- */
+/* -------------------------------------------------------------- */
 .Customers {
   background-color: #F2F2F2;
 }
@@ -854,7 +854,6 @@ html, body {
 
 .Customers__slider-arrow {
   display: block;
-
   line-height: 0;
   border-radius: 50%;
   position: relative;
@@ -931,7 +930,7 @@ html, body {
   background-color: gray;
 }
 
-/* ---------------------------------------------- */
+/* ----------------------------------------------------------- */
 .Questions {
   background-color: #E2E6E9;
 }
@@ -947,17 +946,22 @@ html, body {
 .Questions__acc-item {
   background-color: white;
   margin-bottom: 12px;
+
+}
+
+.Questions__acc-link {
+  display: block;
+  width: 100%;
   padding-bottom: 38px;
 }
-.Questions__acc-link{
-  display: block;
-}
+
 .Questions__acc-item:last-child {
   margin-bottom: 0px;
 }
 
-.Questions__acc-head {
-  position: relative;
+.Questions__acc-head span{
+  display: flex;
+  /* position: relative; */
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -966,26 +970,41 @@ html, body {
   color: #1E1B1B;
   padding: 40px 0px 0px 41px;
 }
-.Questions__acc-head::before,
-.Questions__acc-head::after {
-  content:"";
-  position: absolute;
-  top: 50%;
-  right: 40px;
+.Questions__acc-head{
+  display: flex;
+  justify-content: space-between;
+}
+.Questions__block {
+  position: relative;
+  margin: 32px 40px 0px 0px;
+  text-align: end;
   width: 51px;
   height: 48px;
-  background-image: url("/images/Шестой\ слайд/Plus.svg" );
-  background-size: 30px 45px;
-  background-position: 10px 0;
-  background-repeat: no-repeat;
   background-color: #FF6433;
+  
 }
-.Questions__acc-head:active{
 
+.Questions__block::before,
+.Questions__block::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 16px;
+  width: 20px;
+  height: 3px;
+  background-color: white;
+}
+.Questions__block::after{
+  transform: rotate(0deg);
+  transition: all .2s;
+}
+
+.Questions__acc-link--active .Questions__block::after{
+  transform: rotate(90deg);
 }
 
 .Questions__acc-text {
-  width: 80%;
+  width: 90%;
   margin-top: 16px;
   padding: 0 154px 0px 41px;
   font-style: normal;
@@ -993,9 +1012,4 @@ html, body {
   font-size: 18px;
   line-height: 175%;
   color: #939191;
-}
-.Questions__block{
-  /* width: 51px;
-  height: 48px;
-  background-color: #FF6433; */
 }
