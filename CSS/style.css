@@ -959,7 +959,7 @@ html, body {
   margin-bottom: 0px;
 }
 
-.Questions__acc-head span{
+.Questions__acc-head span {
   display: flex;
   /* position: relative; */
   font-style: normal;
@@ -970,10 +970,12 @@ html, body {
   color: #1E1B1B;
   padding: 40px 0px 0px 41px;
 }
-.Questions__acc-head{
+
+.Questions__acc-head {
   display: flex;
   justify-content: space-between;
 }
+
 .Questions__block {
   position: relative;
   margin: 32px 40px 0px 0px;
@@ -981,7 +983,7 @@ html, body {
   width: 51px;
   height: 48px;
   background-color: #FF6433;
-  
+
 }
 
 .Questions__block::before,
@@ -994,12 +996,13 @@ html, body {
   height: 3px;
   background-color: white;
 }
-.Questions__block::after{
+
+.Questions__block::after {
   transform: rotate(0deg);
   transition: all .2s;
 }
 
-.Questions__acc-link--active .Questions__block::after{
+.Questions__acc-link--active .Questions__block::after {
   transform: rotate(90deg);
 }
 
@@ -1012,4 +1015,102 @@ html, body {
   font-size: 18px;
   line-height: 175%;
   color: #939191;
+}
+
+/* ---------------------------------------------------------------------------- */
+.Experts__ {
+  padding-bottom: 522px;
+}
+
+.Experts__heading {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 84px;
+  letter-spacing: -0.03em;
+  color: #1E1B1B;
+  padding-top: 121px;
+  width: 36%;
+  text-align: start;
+  margin-bottom: 48px;
+}
+
+.Experts__content {
+  margin-right: 141px;
+}
+
+.Experts__body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Experts__input {
+  width: 624px;
+  height: 72px;
+  background-color: #F2F2F2;
+  border-radius: 2px;
+  margin-bottom: 4px;
+}
+
+.Experts__input:last-child {
+  margin-bottom: 0px;
+}
+
+.Experts__input--item {
+  background-color: #F2F2F2;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  color: #1E1B1B;
+  padding-left: 40px;
+  width: 100%;
+  height: 100%;
+}
+
+::placeholder {
+  color: #1E1B1B;
+}
+
+.Experts__map {
+  width: 100%;
+  height: 512px;
+  transform: translate(0, 178px);
+}
+
+.Experts__list {
+  margin-bottom: 48px;
+}
+
+.Experts__item-top {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  color: #1E1B1B;
+  opacity: 0.7;
+}
+
+.Experts__item-link {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.03em;
+  color: #1E1B1B;
+}
+
+.Experts__Address {
+  margin-bottom: 32px;
+}
+
+.Experts__Contact {
+  margin-bottom: 32px;
+}
+
+.Experts__button {    
+  margin-top: 48px;
+  display: block;
+  width: 206px;
+  height: 64px;
 }

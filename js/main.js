@@ -33,4 +33,7 @@ $(function () {
     $(this).toggleClass("Questions__acc-link--active");
     $(this).children(".Questions__acc-text").slideToggle();
   });
+
+
+
 });
