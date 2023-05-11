@@ -412,11 +412,10 @@ html, body {
 }
 
 /* --------------------------------------------------- */
-.Assistant {
-  margin-top: 104px;
-}
 
-.conteiner {}
+.Assistant__inner{
+  padding-top: 104px;
+}
 
 .Assistant__block {
   margin-top: 142px;
@@ -647,9 +646,6 @@ html, body {
 }
 
 /* ---------------------------------------------------- */
-.Blog {}
-
-.conteiner {}
 
 .Blog__inner {
   padding-top: 131px;
@@ -1108,9 +1104,127 @@ html, body {
   margin-bottom: 32px;
 }
 
-.Experts__button {    
+.Experts__button {
   margin-top: 48px;
   display: block;
   width: 206px;
   height: 64px;
+}
+
+.Experts__photo {
+  width: 100%;
+}
+
+/* -------------------------------------------------------- */
+
+
+.footer__top-inner{
+  background-color: #1E1B1B;
+  color: #FFFFFF;
+  opacity: 0.98;
+}
+
+.footer__main {
+  display: flex;
+  padding-bottom: 129px;
+}
+
+.footer__heading {
+  margin-right: 193px;
+}
+
+.footer__title {
+  width: 80%;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 140%;
+  letter-spacing: -0.03em;
+  color: #FFFFFF;
+  padding: 128px 0px 64px 0px;
+}
+
+.footer__icon {
+  display: flex;
+}
+
+.footer__icon--link {
+  margin-right: 24px;
+}
+
+.footer__icon--link:last-child {
+  margin-right: 0px;
+}
+
+.footer__information {
+  padding: 128px 153px 0px 0px;
+  width: 60%;
+}
+
+
+.footer__item-top {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 175%;
+  color: #FFFFFF;
+  opacity: 0.6;
+}
+
+.footer__item-link {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.03em;
+  color: #FFFFFF;
+}
+
+.footer__information {}
+
+.footer__bottom{
+  background-color: #1E1B1B;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.footer__bottom-inner {
+  display: flex;
+  justify-content: space-between;
+  padding: 64px 0px 66px 0px;
+}
+.footer__nav{
+  margin-top: 7px;
+}
+.footer__nav-list {
+  display: flex;
+}
+
+.footer__nav-item {
+  margin-right: 40px;
+}
+
+.footer__nav-item:last-child {
+  margin-right: 206px;
+}
+
+.footer__logo {
+  margin-right: 288px;
+}
+
+.footer__nav-link {
+  transition: all .3s;
+}
+
+.footer__nav-link:hover {
+  color: #FF6433;
+}
+
+.footer__finsweet {
+  
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  color: #939191;
 }
