@@ -33,7 +33,14 @@ $(function () {
     $(this).toggleClass("Questions__acc-link--active");
     $(this).children(".Questions__acc-text").slideToggle();
   });
-
-
-
+  $(".header__nav-list a, .footer__nav-list a").on("click",  function (e) {
+    e.preventDefault()
+    var id = $(this).attr('href'),
+      top = $(id).offset().top
+    $("body,html").animate({ scrollTop: top }, 1000)
+  })
+  $('.burger').on('click', function(e){
+    e.preventDefault()
+    $('.header__top').toggleClass('header__top--open')
+  })
 });
