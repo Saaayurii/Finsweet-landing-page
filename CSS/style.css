@@ -1301,7 +1301,7 @@ body {
     display: none;
   }
   .header__comments1{
-    display: none;
+    display: block;
   }
 
 }
