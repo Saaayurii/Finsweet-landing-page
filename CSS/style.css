@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   font-family: 'Manrope';
 }
 
@@ -13,6 +14,24 @@ html, body {
   height: auto;
   padding: 0 40px;
   margin: 0 auto;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 50;
+  background: rgba(0, 0, 0, 0.189);
+  visibility: hidden;
+  opacity: 0;
+  transition: all .3s;
+}
+
+.overlay--show {
+  visibility: visible;
+  opacity: 1;
 }
 
 .burger {
@@ -46,7 +65,7 @@ html, body {
   margin-right: 475px;
 }
 
-.logo {}
+
 
 .header__nav {
   border-right: 0.5px solid gray;
@@ -127,16 +146,13 @@ html, body {
 
 .header__play-btn2 {
   display: inline-block;
+
 }
 
 /* ------------------------------------------- ---------------------------*/
 .header__body {
   padding-top: 138px;
 }
-
-.conteiner {}
-
-.header__body-inner {}
 
 .header__main {
   display: flex;
@@ -160,7 +176,7 @@ html, body {
   font-style: normal;
   font-weight: 800;
   font-size: 64px;
-  line-height: 84px;
+  line-height: 130%;
   letter-spacing: -0.03em;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -176,7 +192,7 @@ html, body {
 }
 
 
-.button {}
+
 
 .header__play-btn2 {
   display: inline-flex;
@@ -318,15 +334,11 @@ html, body {
 }
 
 /* ------------------------------------------------------- */
-.main {}
 
 .service {
   margin-top: 104px;
   background-color: #F2F2F2;
-
 }
-
-.conteiner {}
 
 .service__heading {
   padding-top: 128px;
@@ -667,7 +679,7 @@ html, body {
   color: #1E1B1B;
 }
 
-.Blog__body {}
+
 
 .Blog__button-box {
   display: flex;
@@ -710,11 +722,10 @@ html, body {
 }
 
 .Blog__list-item:hover {
-
   transform: scale(1.05);
 }
 
-.Blog__list-link {}
+
 
 .Blog__image-box img {
   height: 100%;
@@ -1206,7 +1217,6 @@ html, body {
   color: #FF6433;
 }
 
-.footer__information {}
 
 .footer__bottom {
   background-color: #1E1B1B;
@@ -1264,6 +1274,38 @@ html, body {
   }
 }
 
+@media(max-width:1275px) {
+  .h1__header__title {
+    font-size: 45px;
+    max-width: 365px;
+  }
+
+}
+
+@media(max-width:1017px) {
+  .header__humans {
+    max-width: 500px;
+  }
+
+  .header__comments2 {
+
+    transform: translate(-100px, -50px);
+  }
+}
+
+@media(max-width:928px) {
+  .header__humans {
+    display: none;
+  }
+  .header__comments2{
+    display: none;
+  }
+  .header__comments1{
+    display: none;
+  }
+
+}
+
 @media(max-width: 840px) {
   .header {
     padding-top: 72px;
@@ -1272,9 +1314,24 @@ html, body {
   .burger {
     display: block;
     position: fixed;
-    top: 30px;
-    right: 15px;
+    top: 10px;
+    right: 10px;
     z-index: 150;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    border-radius: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s;
+  }
+
+  .burger--follow {
+    top: 10px;
+    right: 10px;
+    box-shadow: 0 1px 5px 1px #1E1B1B;
+    background-color: white;
   }
 
   .burger span {
@@ -1284,7 +1341,6 @@ html, body {
     background-color: #1E1B1B;
     border-radius: 2px;
     margin: 5px 0;
-
   }
 
   .burger::before,
@@ -1295,6 +1351,7 @@ html, body {
     height: 4px;
     background-color: #1E1B1B;
     border-radius: 2px;
+
   }
 
   .header__top {
@@ -1303,25 +1360,29 @@ html, body {
     right: 0;
     bottom: 0;
     background-color: white;
+
+    border-radius: 10px;
     z-index: 100;
-    width: 280px;
-    height: 600px;
-    transform: translateX(100%);
+    width: 200px;
+    height: 400px;
+    transform: translateX(0%);
     transition: all .3s;
   }
-  .header__top--open{
-    transform: translateX(0%);
+
+  .header__top--open {
+    transform: translateX(100%);
   }
+
   .header__top-inner {
     flex-direction: column;
-    height: 100%;
+    height: 400px;
     justify-content: space-between;
-    padding: 40px 0;
+    padding: 75px 0px 0px 0px;
   }
 
   .header__logo {
     margin: 0;
-    padding: 25px;
+    padding: 0px 0px 0px 0px;
   }
 
   .header__nav {
@@ -1333,20 +1394,20 @@ html, body {
 
   .header__nav-list {
     flex-direction: column;
-
   }
 
   .header__nav-item {
-    padding: 0px 30px 45px 30px;
-
+    padding: 0px 30px 15px 30px;
   }
 
   .header__nav-link {}
 
-
   .header__fhone {
     text-align: end;
     margin: 0;
-    padding: 0px 0px 0px 65px;
+    padding: 0px 0px 10px 85px;
   }
+
+  /* ---------------------------------------------- */
+
 }
