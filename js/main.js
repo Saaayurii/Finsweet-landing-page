@@ -53,5 +53,4 @@ $(function () {
     $('.header__top').toggleClass('header__top--open')
     $('.overlay').toggleClass('overlay--show')
   })
-
 });
