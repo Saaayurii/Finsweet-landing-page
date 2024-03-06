@@ -45,5 +45,4 @@ This project is aimed at providing vehicle services online, making it convenient
 Contributions are welcome! Please feel free to submit a pull request.
 
 ## Screenshots
-***
 
