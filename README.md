@@ -45,6 +45,6 @@ This project is aimed at providing vehicle services online, making it convenient
 Contributions are welcome! Please feel free to submit a pull request.
 
 ## Screenshots
-![Screenshot of Home Page](images/photo_2024-03-06_15-02-44.png)
+![Screenshot of Home Page](images/photo_2024-03-06_15-02-44.jpg)
 
 
