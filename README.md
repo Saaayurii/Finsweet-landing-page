@@ -31,7 +31,7 @@ This project is aimed at providing vehicle services online, making it convenient
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/your-username/your-repository.git`
+1. Clone the repository: `git clone https://github.com/Saaayurii/Finsweet-landing-page.git`
 2. Navigate to the project directory.
 
 ## Usage
