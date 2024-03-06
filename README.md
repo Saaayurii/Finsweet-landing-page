@@ -46,5 +46,8 @@ Contributions are welcome! Please feel free to submit a pull request.
 
 ## Screenshots
 ![Screenshot of Home Page](images/photo_2024-03-06_15-02-44.jpg)
+![Screenshot of Home Page2](images/photo_2024-03-06_15-02-53.jpg)
+![Screenshot of Home Page3](images/photo_2024-03-06_15-03-00.jpg)
+![Screenshot of Home Page4](images/photo_2024-03-06_15-03-05.jpg)
 
 
